@@ -1,0 +1,25 @@
+key points on constructor: 
+
+it is just a special method to initialize objects 
+the name of constructor is same of class 
+it is automatically called when object is created
+Every time an object is created using the new keyword ,at least one constructor is called.
+Constructor does not have any return type .
+Constructor are called only once ,when an object is created 
+the first line of constructor is a call to super() or this()
+super ()-used to call the immediate parent class constructor ,method and instance variable
+this()-used to call the current class constructor .used in constructor chaining 
+once the constructor is declared private ,it can't be accessed from outside the class 
+private keyword is used to stop making objects from outside the class 
+
+three types of constructor:
+
+zero arguments constructor
+having zero arguments 
+
+parameterized constructor
+having some arguments as parameters
+
+default constructor
+when we don't define any constructor , then it is auto created by compiler . 
+
