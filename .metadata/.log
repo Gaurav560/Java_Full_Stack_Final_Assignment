@@ -11775,3 +11775,72 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.debug.core 4 125 2023-05-23 09:22:01.925
+!MESSAGE Exception occurred executing command line.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Program Files\Java\jdk1.8.0_202\bin\javaw.exe" (in directory "C:\Users\Gaurav\Desktop\FinalAss\Q11"): CreateProcess error=740, The requested operation requires elevation
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1140)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1074)
+	at java.base/java.lang.Runtime.exec(Runtime.java:647)
+	at org.eclipse.debug.core.DebugPlugin.exec(DebugPlugin.java:970)
+	at org.eclipse.jdt.launching.AbstractVMRunner.exec(AbstractVMRunner.java:116)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:526)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:176)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:806)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:717)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: CreateProcess error=740, The requested operation requires elevation
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1111)
+	... 11 more
+
+!ENTRY org.eclipse.debug.core 4 125 2023-05-23 09:22:20.753
+!MESSAGE Exception occurred executing command line.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Program Files\Java\jdk1.8.0_202\bin\javaw.exe" (in directory "C:\Users\Gaurav\Desktop\FinalAss\Q11"): CreateProcess error=740, The requested operation requires elevation
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1140)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1074)
+	at java.base/java.lang.Runtime.exec(Runtime.java:647)
+	at org.eclipse.debug.core.DebugPlugin.exec(DebugPlugin.java:970)
+	at org.eclipse.jdt.launching.AbstractVMRunner.exec(AbstractVMRunner.java:116)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:526)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:176)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:806)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:717)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: CreateProcess error=740, The requested operation requires elevation
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1111)
+	... 11 more
+
+!ENTRY org.eclipse.debug.core 4 125 2023-05-23 09:23:03.516
+!MESSAGE Exception occurred executing command line.
+!STACK 0
+java.io.IOException: Cannot run program "C:\Program Files\Java\jdk1.8.0_202\bin\javaw.exe" (in directory "C:\Users\Gaurav\Desktop\FinalAss\Q11"): CreateProcess error=740, The requested operation requires elevation
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1140)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1074)
+	at java.base/java.lang.Runtime.exec(Runtime.java:647)
+	at org.eclipse.debug.core.DebugPlugin.exec(DebugPlugin.java:970)
+	at org.eclipse.jdt.launching.AbstractVMRunner.exec(AbstractVMRunner.java:116)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:526)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:176)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:806)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:717)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: CreateProcess error=740, The requested operation requires elevation
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1111)
+	... 11 more
